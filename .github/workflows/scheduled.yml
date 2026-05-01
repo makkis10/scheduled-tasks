@@ -43,5 +43,5 @@ jobs:
           # Add more secrets in Settings > Secrets > Actions
           OMW_API_KEY: ${{ secrets.OMW_API_KEY }}
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-          SID_TOKEN: ${{ secrets.SID_TOKEN }}
+          ACCOUNT_SID: ${{ secrets.ACCOUNT_SID }}
         run: python main.py
