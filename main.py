@@ -12,7 +12,7 @@ from twilio.rest import Client
 MY_LAT = 26.735729#60.169857
 MY_LONG = 85.928291#24.938379
 timestamp_count = 4
-api_key = os.environ.get("OMW_API_KEY")
+api_key = os.environ.get("OWM_API_KEY")
 
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
